@@ -158,7 +158,8 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'onedark',
+        -- theme = 'onedark',
+        theme = 'solarized_light',
         component_separators = '|',
         section_separators = '',
       },
@@ -548,7 +549,6 @@ cmp.setup {
 }
 
 require('customconfig.customkeymaps')
--- vim.keymap.set("n", "<leader>e", ":Neotree<CR>", { desc = '[e]Open Neotree'})
 
 
 -- The line beneath this is called `modeline`. See `:help modeline`
